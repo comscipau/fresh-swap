@@ -34,3 +34,17 @@
   box-shadow: 0px 8px 0px #dd8500;
   border-radius: 16px;
 }
+
+.gradient2 {
+  background: radial-gradient(
+      66.27% 92.35% at 105% 92.42%,
+      rgba(59, 170, 0, 0.15) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(
+      179.34% 127.12% at -140% 92.42%,
+      rgba(255, 171, 0, 0.5) 0%,
+      rgba(29, 29, 32, 0.5) 100%
+    ),
+    #1d1d20;
+}
