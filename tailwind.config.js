@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#DD8500",
+        primary: "#B8E99E",
         secondary: "#F9C04C",
         tPrimary: "#4E4E4E",
         tSecondary: "#1D1D20",
@@ -14,7 +14,18 @@ module.exports = {
       },
       fontFamily: {
         causten: ["Causten", "sans-serif"],
+        caustenBlack: ["CaustenBlack", "sans-serif"],
+        caustenBold: ["CaustenBold", "sans-serif"],
+        caustenSemiBold: ["CaustenSemiBold", "sans-serif"],
+        caustenMedium: ["CaustenMedium", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+      },
+      backgroundImage: {
+        gradient2: "url('/src/assets/gradient2.png')",
+        gradient3: "url('/src/assets/gradient3.png')",
+      },
+      backgroundSize: {
+        stretch: "100% 100%",
       },
     },
   },

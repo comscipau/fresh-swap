@@ -8,6 +8,26 @@
 }
 
 @font-face {
+  font-family: "CaustenBlack";
+  src: url("./fonts/Causten-Black.otf");
+}
+
+@font-face {
+  font-family: "CaustenBold";
+  src: url("./fonts/Causten-Bold.otf");
+}
+
+@font-face {
+  font-family: "CaustenSemiBold";
+  src: url("./fonts/Causten-SemiBold.otf");
+}
+
+@font-face {
+  font-family: "CaustenMedium";
+  src: url("./fonts/Causten-Medium.otf");
+}
+
+@font-face {
   font-family: "Inter";
   src: url("./fonts/Inter-Regular.ttf");
 }
@@ -23,6 +43,14 @@
 
 .heroGradient {
   background: radial-gradient(
+    55.5% 55.5% at 50% 69.12%,
+    #fdbd5e 0%,
+    #ff9900 100%
+  );
+}
+
+.heroGradientSM {
+  background: radial-gradient(
     77.86% 117.98% at 74.24% 19.82%,
     #f9c04c 0%,
     #dd8500 100%
@@ -35,16 +63,8 @@
   border-radius: 16px;
 }
 
-.gradient2 {
-  background: radial-gradient(
-      66.27% 92.35% at 105% 92.42%,
-      rgba(59, 170, 0, 0.15) 0%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    radial-gradient(
-      179.34% 127.12% at -140% 92.42%,
-      rgba(255, 171, 0, 0.5) 0%,
-      rgba(29, 29, 32, 0.5) 100%
-    ),
-    #1d1d20;
+.heroBtn {
+  background: #f9f991;
+  box-shadow: 0px 2px 0px #faa72c;
+  border-radius: 16px;
 }
