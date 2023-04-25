@@ -1,10 +1,10 @@
 import React from "react";
 
-import JD from "../assets/jd.png";
-import DEREK from "../assets/derek.png";
-import KRAKEN from "../assets/kraken.png";
-import MANIFESTA from "../assets/manifesta.png";
-import CHAD from "../assets/chad.png";
+import JD from "../assets/JD.svg";
+import DEREK from "../assets/DEREK.svg";
+import KRAKEN from "../assets/KRAKEN.svg";
+import MANIFESTA from "../assets/MANIFESTA.svg";
+import CHAD from "../assets/CHAD.svg";
 
 const Team = () => {
   return (
