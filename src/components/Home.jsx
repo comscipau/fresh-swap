@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // import TRENDING from "../assets/trending.png";
 // import LOGO_SM from "../assets/LOGO_SM.png";
 import DIVIDER from "../assets/DIVIDER.png";
-import DIVIDER_SM from "../assets/DIVIDER_SM.png";
+import DIVIDER_SM from "../assets/DIVIDER_SM.svg";
 // import WALLET from "../assets/wallet.svg";
 import LOGO from "../assets/LOGO.png";
 
