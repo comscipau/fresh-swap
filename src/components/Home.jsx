@@ -118,7 +118,7 @@ const Home = () => {
             </div>
           </div>
           <div className="w-[159px] lg:w-[466px]">
-            <img src={LOGO} alt="logo" className="mt-0 lg:-mt-[70px] lg:ml-9" />
+            <img src={LOGO} alt="logo" className="mt-5 lg:-mt-[70px] lg:ml-9" />
           </div>
         </div>
       </div>

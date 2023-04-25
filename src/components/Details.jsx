@@ -4,7 +4,7 @@ import RICH from "../assets/RICH.png";
 
 const Details = () => {
   return (
-    <div className="text-white bg-gradient2 bg-stretch font-causten relative z-10 pb-[97px]">
+    <div className="text-white bg-gradient2 bg-stretch font-causten relative z-10 pb-[97px] -mt-1">
       <div className="flex flex-col lg:flex-row items-center justify-center pt-[5.75rem] gap-[3.44rem] px-4 lg:px-0 lg:pl-11 lg:pr-[8.44rem]">
         <img src={GLASS} alt="GLASS" />
         <div className="text-center lg:text-right w-full lg:w-[573px]">
